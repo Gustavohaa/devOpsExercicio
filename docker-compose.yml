@@ -4,7 +4,7 @@ services:
   app:
     # IMPORTANTE: Substitua 'SEU-USUARIO/SEU-REPO'
     # Esta é a imagem que o nosso CI publica no GHCR
-    image: ghcr.io/gustavohaa/devOpsExercicio:latest
+    image: ghcr.io/gustavohaa/devopsexercicio:latest
     ports:
       - "3000:3000" # Mapeia a porta do contêiner para localhost:3000
     restart: always
